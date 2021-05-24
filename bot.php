@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Baghdad');
 if(!file_exists('config.json')){
-	$token = readline('Enter Token: ');
-	$id = readline('Enter Id: ');
+	$token = readline('1801210458:AAH7N0z208LJR-qTJFbeHoJZnZ4KhyP7FjA: ');
+	$id = readline('704698746: ');
 	file_put_contents('config.json', json_encode(['id'=>$id,'token'=>$token]));
 	
 } else {
